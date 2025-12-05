@@ -1,15 +1,12 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_is_perfect - Checks if a binary tree is perfect.
- * @tree: Pointer to root node.
- *
- * perfect_check - Helper to verify perfection.
+ * perfect_check - Helper to verify if a binary tree is perfect.
  * @tree: Pointer to current node.
  * @depth: Expected leaf depth.
  * @level: Current level.
  *
- * Return: 1 if subtree perfect, otherwise 0.
+ * Return: 1 if subtree is perfect, otherwise 0.
  */
 static int perfect_check(const binary_tree_t *tree, size_t depth, size_t level)
 {
